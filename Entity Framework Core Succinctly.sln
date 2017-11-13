@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainModel", "DomainModel\DomainModel.csproj", "{18FD4E42-D005-43AB-A4B0-F04A5D2D05C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{AA210C9E-1509-421A-AECB-FAA12590201A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extensions", "Extensions\Extensions.csproj", "{E03ACFE7-856E-44B7-85FA-F75D9A9BD84B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{18FD4E42-D005-43AB-A4B0-F04A5D2D05C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18FD4E42-D005-43AB-A4B0-F04A5D2D05C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18FD4E42-D005-43AB-A4B0-F04A5D2D05C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18FD4E42-D005-43AB-A4B0-F04A5D2D05C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA210C9E-1509-421A-AECB-FAA12590201A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA210C9E-1509-421A-AECB-FAA12590201A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA210C9E-1509-421A-AECB-FAA12590201A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA210C9E-1509-421A-AECB-FAA12590201A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E03ACFE7-856E-44B7-85FA-F75D9A9BD84B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03ACFE7-856E-44B7-85FA-F75D9A9BD84B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03ACFE7-856E-44B7-85FA-F75D9A9BD84B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03ACFE7-856E-44B7-85FA-F75D9A9BD84B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7214433-83C5-475E-BEEF-DA6310E8975C}
+	EndGlobalSection
+EndGlobal
