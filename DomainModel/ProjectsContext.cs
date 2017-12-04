@@ -44,6 +44,8 @@ namespace DomainModel
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
+            builder.Entity<CustomerManager>().HasKey(x => new { x.ResourceId, x.CustomerId });
+
             builder.Entity<Resource>().OwnsOne(x => x.Contact);
             builder.Entity<Customer>().OwnsOne(x => x.Contact);
 

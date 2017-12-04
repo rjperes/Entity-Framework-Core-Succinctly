@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/Extensions/obj
+/DomainModel/obj
+/.vs/Entity Framework Core Succinctly/v15
+/UnitTests/obj
+*.user
+/.vs/config
