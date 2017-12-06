@@ -8,3 +8,6 @@
 /UnitTests/obj
 *.user
 /.vs/config
+/DomainModel/bin/Debug/netstandard2.0
+/Extensions/bin/Debug/netstandard2.0
+/UnitTests/bin/Debug/netcoreapp2.0
